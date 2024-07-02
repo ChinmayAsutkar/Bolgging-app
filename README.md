@@ -34,6 +34,14 @@ This is a MERN (MongoDB, Express, React, Node.js) stack blogging application whe
 
 ## Screenshots
 
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+
+### signup Page
+![signup Page](screenshots/signup.png)
+
 ### Homepage
 ![Homepage](screenshots/home.png)
 
@@ -46,8 +54,6 @@ This is a MERN (MongoDB, Express, React, Node.js) stack blogging application whe
 ### Contact Page
 ![Contact Page](screenshots/contact.png)
 
-### Login Page
-![Login Page](screenshots/login.png)
 
 <!--
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
