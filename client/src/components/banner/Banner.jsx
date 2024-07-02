@@ -1,4 +1,3 @@
-
 import { styled, Box, Typography } from '@mui/material';
 
 const Image = styled(Box)`
@@ -9,17 +8,38 @@ const Image = styled(Box)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
+    position: relative;
+
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(0.8);
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+    }
 `;
 
 const Heading = styled(Typography)`
     font-size: 70px;
     color: #FFFFFF;
-    line-height: 1
+    line-height: 1;
+    z-index: 1;
 `;
 
 const SubHeading = styled(Typography)`
     font-size: 20px;
     background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1;
 `;
 
 const Banner = () => {
@@ -27,7 +47,7 @@ const Banner = () => {
     return (
         <Image>
             <Heading>BLOG</Heading>
-            <SubHeading>Code for Interview</SubHeading>
+            <SubHeading>what's on your mind</SubHeading>
         </Image>
     )
 }
