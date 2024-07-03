@@ -8,13 +8,7 @@ const Image = styled(Box)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: all 0.3s ease;
     position: relative;
-
-    &:hover {
-        transform: scale(1.05);
-        filter: brightness(0.8);
-    }
 
     &::before {
         content: '';
@@ -31,7 +25,11 @@ const Heading = styled(Typography)`
     font-size: 70px;
     color: #FFFFFF;
     line-height: 1;
-    z-index: 1;
+    transition: color 0.3s ease;
+
+    ${Image}:hover & {
+        color: #ff5722; /* Change color on hover */
+    }
 `;
 
 const SubHeading = styled(Typography)`
