@@ -1,5 +1,5 @@
 #link
-https://your-blogging-app.netlify.app/account
+https://your-blogging-app.netlify.app
 
 # Blogging App
 
