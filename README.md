@@ -1,3 +1,6 @@
+#link
+https://your-blogging-app.netlify.app/account
+
 # Blogging App
 
 This is a MERN (MongoDB, Express, React, Node.js) stack blogging application where users can register, login, write their own blogs, and view blogs from other users.
